@@ -1,0 +1,20 @@
+<!--
+  ============================================================
+  HOW THIS FILE IS ORGANIZED (read this first!)
+  ============================================================
+  This is ONE file with everything in it: HTML, CSS, and JS.
+  Scroll down and you'll find clearly labeled sections:
+
+    1. FONTS & COLORS   -> change the look of the whole site here
+    2. HEADER / NAV      -> the terminal-style menu at the top
+    3. ABOUT ME
+    4. SKILLS            (optional — delete the whole <section> if you don't want it)
+    5. PROJECTS          -> duplicate one <article class="card"> to add a new project
+    6. CERTIFICATES      -> duplicate one <article class="cert"> to add a new certificate
+    7. CONTACT           (kept last, as requested)
+    8. SCRIPT            -> small bit of JS, you usually won't need to touch this
+
+  Every section has comments like this one. Look for "EDIT:" —
+  that marks the exact spot you'll usually want to change.
+  ============================================================
+-->

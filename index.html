@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jay Anne — Portfolio</title>
+
+
+
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- ============================================================
+       2. HEADER / NAV
+       EDIT: change the handle in .prompt, and the section names
+       in <nav> if you rename any sections below.
+       ============================================================ -->
+  <header>
+    <div class="nav-bar">
+      <span class="prompt">Get to know me:<span class="cursor"></span></span>
+      <nav>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#hobbies">hobbies</a>
+        <a href="#projects">projects</a>
+        <a href="#certificates">certificates</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- ABOUT ME -->
+    <section id="about" class="hero">
+      <div class="hero-top">
+        <!-- EDIT: replace the placeholder text below with
+             <img src="your-photo.jpg" alt="Jay Anne"> to use a real photo -->
+        <div class="photo-holder">
+        <img src="images/asya.jpg" alt="profile" class="dark-photo">
+        <img src="images/jyanne.jpg" alt="profile" class="light-photo">
+        </div>
+        <div class="hero-text">
+          <h1>Hi, I'm Jay Anne Alcido.</h1>
+          <p class="role">BS Information Technology Student</p>
+        </div>
+      </div>
+      <div class="hero-divider"></div>
+      <p class="bio">
+        I'm a 3rd Year BSIT student in Eastern Samar State University who's very eager and interested in learning and creating web and applications or any services that will help people achieve their task more effecient. This portfolio showcases things about myself, my projects, certificates, and my socials where u can get to know me more.
+      </p>
+    </section>
+
+    <!-- EDUCATIONAL BACKGROUND -->
+<section id="education" class="fade-in">
+    <p class="eyebrow">education</p>
+    <h2>Educational Background</h2>
+
+    <div class="edu-list">
+
+        <div class="edu-card">
+            <h3>Eastern Samar State University</h3>
+            <p>Bachelor of Science in Information Technology</p>
+            <span class="edu-date">2024 – Present</span>
+        </div>
+
+        <div class="edu-card">
+            <h3>Eastern Samar Comprehensive National High School</h3>
+            <p>Senior High School (TVL - ICT Programming Strand)</p>
+            <span class="edu-date">2022 – 2024</span>
+        </div>
+
+        <div class="edu-card">
+            <h3>Eastern Comprehensive National High School</h3>
+            <p>Junior High School</p>
+            <span class="edu-date">2018 – 2022</span>
+        </div>
+
+        <div class="edu-card">
+            <h3>Eugenio S. Daza Pilot Elementary School</h3>
+            <p>Elementary School</p>
+            <span class="edu-date">2012 – 2018</span>
+        </div>
+    </div>
+</section>
+
+    <section id="skills" class="fade-in">
+      <p class="eyebrow">skills</p>
+      <h2>What I work with</h2>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Languages & tools</h3>
+          <div class="chips">
+            <span class="chip">HTML & CSS</span>
+            <span class="chip">PHP</span>
+            <span class="chip">C++</span>
+            <span class="chip">C#</span>
+            <span class="chip">Java basics</span>
+            <span class="chip">JavaScript basics</span>
+            
+            
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Systems & networking</h3>
+          <div class="chips">
+            <span class="chip">Arduino</span>
+            <span class="chip">Networking fundamentals</span>
+            <span class="chip">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Other</h3>
+          <div class="chips">
+            <span class="chip">UI/UX basics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="fade-in">
+      <p class="eyebrow">hobbies</p>
+      <h2>Outside of code</h2>
+      <div class="chips">
+        <!-- EDIT: add a <span class="chip">...</span> for each hobby -->
+        <span class="chip">🎮 Gaming </span>
+        <span class="chip">🎵 Music</span>
+         <span class="chip">🎬 Watching Films</span>
+        <span class="chip">📚 Reading</span>
+        <span class="chip">⚽ Sports</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fade-in">
+      <p class="eyebrow">projects</p>
+      <h2>Some of the things I've built</h2>
+      <div class="grid">
+
+    
+        <article class="card">
+          <div class="card-tab"><span class="tab-dot"></span>project-01.md</div>
+          <!-- EDIT: replace placeholder with <img src="project-01.jpg" alt="Project 1"> -->
+          <div class="card-image">
+            <img src="images/projects/milopo.png">
+          </div>
+          <div class="card-body">
+            <h3>MILO PO</h3>
+            <p> A static front-end made to popularize and showcase our product. </p>
+            <div class="tags">
+              <span class="tag"> html & css</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="role">
+              <a>Role: Web Developer</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 2 -->
+        <article class="card">
+          <div class="card-tab"><span class="tab-dot"></span>project-02.md</div>
+          <div class="card-image">
+            <img src="images/projects/thisapp.png">
+          </div>
+          <div class="card-body">
+            <h3>T.H.I.S</h3>
+            <p> A dental appointment system aimed to make schedule less hassle</p>
+            <div class="tags">
+              <span class="tag">C#</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="role">
+              <a>Role: Lead Programmer</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 3 -->
+        <article class="card">
+          <div class="card-tab"><span class="tab-dot"></span>project-03.md</div>
+          <div class="card-image">
+            <img src="images/projects/arduino.jpg">
+          </div>
+          <div class="card-body">
+            <h3>Automatic Room Light</h3>
+            <p> A prototype we made that automates room operation if a motion is detected</p>
+            <div class="tags">
+              <span class="tag">Arduino</span>
+              <span class="tag">C++</span>
+            </div>
+            <div class="role">
+              <a>Role: Lead Programmer</a>
+            </div>
+          </div>
+        </article>
+
+         <article class="card">
+          <div class="card-tab"><span class="tab-dot"></span>project-04.md</div>
+          <!-- EDIT: replace placeholder with <img src="project-04.jpg" alt="Project 4"> -->
+          <div class="card-image">
+            <img src="images/projects/acadmonitoring.jpg">
+          </div>
+          <div class="card-body">
+            <h3>AMS</h3>
+            <p> A system developed to lessen the use of papers in monitoring Student's works and attendance. </p>
+            <div class="tags">
+              <span class="tag">VB.NET</span>
+              <span class="tag">Microsoft Access</span>
+            </div>
+            <div class="role">
+              <a>Role: Full stack developer</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 5 -->
+        <article class="card">
+          <div class="card-tab"><span class="tab-dot"></span>project-05.md</div>
+          <div class="card-image">
+            <img src="images/projects/appsystem.jpg">
+          </div>
+          <div class="card-body">
+            <h3>Appointment System</h3>
+            <p> a web development type of T.H.I.S, aimed to make the Appointment System Online.</p>
+            <div class="tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="role">
+              <a>Role: Lead Programmer</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 6 -->
+        <article class="card">
+          <div class="card-tab"><span class="tab-dot"></span>project-06.md</div>
+          <div class="card-image">
+            <img src="images/projects/puyit.png">
+          </div>
+          <div class="card-body">
+            <h3>P.U.Y.I.T</h3>
+            <p> A web development aiming to make task managing more ordered.</p>
+            <div class="tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="role">
+              <a>Role: Assistant Frontend Developer</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATES-->
+    <section id="certificates" class="fade-in">
+      <p class="eyebrow">certificates</p>
+      <h2>Certificates & trainings</h2>
+      <div class="cert-list">
+
+        <article class="cert">
+          <div class="cert-image">
+            <img src="images/certs/1st year 1st sem.png">
+          </div>
+          <div class="cert-main">
+            <h3>Deans Lister (1st year, 1st sem)</h3>
+            <span class="issuer">Issued by — Eastern Samar State University</span>
+          </div>
+          <span class="cert-date">2025</span>
+        </article>
+
+        <article class="cert">
+          <div class="cert-image">
+            <img src="images/certs/2sem 1yer.jpg">
+          </div>
+          <div class="cert-main">
+            <h3>Deans Lister (1st year, 2nd sem)</h3>
+            <span class="issuer">Issued by — Eastern Samar State University</span>
+          </div>
+          <span class="cert-date">2026</span>
+        </article>
+
+        <article class="cert">
+          <div class="cert-image">
+            <img src="images/certs/2nd yr 1sem.jpg">
+          </div>
+          <div class="cert-main">
+            <h3>Deans Lister (2nd year, 1st sem)</h3>
+            <span class="issuer">Issued by — Eastern Samar State University</span>
+          </div>
+          <span class="cert-date">2026</span>
+        </article>
+
+        <article class="cert">
+          <div class="cert-image">
+            <img src="images/certs/Screenshot 2026-06-24 193109.png">
+          </div>
+          <div class="cert-main">
+            <h3>Most Exceptional Presenter Awardee</h3>
+            <span class="issuer">Issued by — Alexis Oliver Caraga, LPT</span>
+          </div>
+          <span class="cert-date">2025</span>
+        </article>
+
+        <article class="cert">
+          <div class="cert-image">
+            <img src="images/certs/Screenshot 2026-06-24 193215.png">
+          </div>
+          <div class="cert-main">
+            <h3>Web Design Mastery Award</h3>
+            <span class="issuer">Issued by — Alexis Oliver Caraga, LPT</span>
+          </div>
+          <span class="cert-date">2025</span>
+        </article>
+
+        
+
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade-in">
+      <div class="contact-box">
+        <p class="eyebrow" style="color:var(--teal);">contact</p>
+        <h2>Let's talk</h2>
+        <p>Open to internships, freelance work, or just a chat about
+          tech. Reach out through any of these:</p>
+        <div class="contact-methods">
+          <!-- EDIT: swap in your real email, phone, GitHub, LinkedIn, etc. -->
+          <a href="mailto:jayannealcido3@gmail.com">✉ jayannealcido3@gmail.com</a>
+          <a href="tel:+639000000000">☎ +63 955 504 5609</a>
+          <a href="https://github.com/jayanne" target="_blank">github.com/jayanne</a>
+          <a href="https://linkedin.com/in/Jay Anne Alcido" target="_blank">linkedin.com/in/Jay Anne Alcido</a>
+          <a href = "https://www.facebook.com/jayanne.alcido.9" target="_blank">ⓕ Jay Anne Alcido</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       8. SCRIPT
+       Small bit of JS: (a) highlights the active nav link as you
+       scroll, (b) fades sections in as they enter view.
+       You usually won't need to edit anything here.
+       ============================================================ -->
+  <script>
+    // ---- dark / light mode toggle ----
+    const root = document.documentElement;
+    const themeBtn = document.getElementById('theme-toggle');
+
+    function applyTheme(theme){
+      root.setAttribute('data-theme', theme);
+      themeBtn.textContent = theme === 'dark' ? '☀︎' : '⏾';
+      try{ localStorage.setItem('portfolio-theme', theme); }catch(e){ /* ignore */ }
+    }
+
+    let savedTheme = 'light';
+    try{ savedTheme = localStorage.getItem('portfolio-theme') || 'light'; }catch(e){ /* ignore */ }
+    applyTheme(savedTheme);
+
+    themeBtn.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    });
+
+    // ---- existing scroll-spy / fade-in behavior ----
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        const link = document.querySelector(`nav a[href="#${id}"]`);
+        if (entry.isIntersecting){
+          entry.target.classList.add('visible');
+          if (link){
+            navLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+          }
+        }
+      });
+    }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
